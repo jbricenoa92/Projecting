@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Inclusive</string>
+    <string name="traducir">Traducir</string>
+    <string name="foto">Foto</string>
+    <string name="palabras_guardadas">Palabras guardadas</string>
+    <string name="lsc">Lenguaje de Señas Colombiano</string>
+    <string name="braile">Braile</string>
+    <string name="texto">Texto</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="escribir">Escribe</string>
+    <string name="prueba">PROBANDO XD</string>
+    <string-array name="alfabeto">
+        <item>Español</item>
+        <item>Dactilológico</item>
+        <item>Braile</item>
+    </string-array>
+    <string-array name="sugerencias">
+        <item>HOLA</item>
+        <item>BUENOS DIAS</item>
+        <item>BUENAS NOCHES</item>
+        <item>GRACIAS</item>
+        <item>ADIOS</item>
+        <item>COMO ESTA</item>
+        <item>SI</item>
+        <item>NO</item>
+        <item>HASTA LUEGO</item>
+        <item>HASTA PRONTO</item>
+        <item>POR FAVOR</item>
+    </string-array>
+    <string name="teclado">1234567890
+        QWERTYUIOP
+        ASDFGHJKLÑ
+        ZXCVBNM</string>
+</resources>

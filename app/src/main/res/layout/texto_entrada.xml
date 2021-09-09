@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_entrada"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="100"
+            android:background="#FFFFFF">
+
+                <AutoCompleteTextView
+                    android:id="@+id/texto_entrada"
+                    android:layout_width="0sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="90"
+                    android:textSize="56sp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"
+                    android:inputType="textCapCharacters"
+                    android:digits=" ABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789">
+                </AutoCompleteTextView>
+
+                <Button
+                    android:id="@+id/borrar_texto"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:textSize="56sp"
+                    android:text="⨯"
+                    android:background="#4193a6"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1pt"
+            android:background="#4193a6"/>
+
+</LinearLayout>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/relative_layout">
+
+        <LinearLayout
+            android:id="@+id/teclado_dactilologico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:background="#d8e8eb">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#4193a6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="10sp">
+
+                        <TextView
+                            android:id="@+id/uno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="1">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/dos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="2">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tres"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="3">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/cuatro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="4">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/cinco"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="5">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/seis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="6">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/siete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="7">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/ocho"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="8">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/nueve"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="9">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/cero"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="54sp"
+                            android:text="0">
+
+                        </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="10sp">
+
+                        <TextView
+                            android:id="@+id/q"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="Q">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/w"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="W">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/e"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="E">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/r"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="R">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/t"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="T">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="Y">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="U">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/i"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="I">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/o"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="O">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/p"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="P">
+
+                        </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="10sp">
+
+                        <TextView
+                            android:id="@+id/a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="A">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/s"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="S">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="D">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/f"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="F">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/g"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="G">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/h"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="H">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/j"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="J">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/k"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="K">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/l"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="L">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/ñ"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="44sp"
+                            android:text="Ñ">
+
+                        </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/z"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="Z">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/x"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="X">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="C">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/v"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="V">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="B">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="N">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text="M">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/esp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="48sp"
+                            android:text=" _ ">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/del"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lsc"
+                            android:textSize="38sp"
+                            android:text="⌫">
+
+                        </TextView>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

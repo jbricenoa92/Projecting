@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Traducir">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".Traducir"
+        android:background="#d8e8eb"
+        android:weightSum="100">
+
+        <Spinner
+            android:id="@+id/alfabeto_entrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"/>
+
+        <ImageButton
+            android:id="@+id/cambio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_sync_alt_24"
+            android:contentDescription="@string/cambiar" />
+
+        <Spinner
+            android:id="@+id/alfabeto_salida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"/>
+
+    </LinearLayout>
+
+</LinearLayout>
